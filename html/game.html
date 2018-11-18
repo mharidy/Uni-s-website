@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <title>L&M - Activity and Sports Blog</title>
+        <meta charset="utf-8" name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="../css/normalize.css"/>
+        <link rel="stylesheet" href="../css/main.css" media="screen"/>
+        <script src="../js/rps.js"></script>
+        <!--<script src="../js/newCheck.js"></script>-->
+    </head>
+    
+    <body>
+        <header>
+            <div><h1>Activities and Sports</h1></div>
+            <div id="logo">
+                <a href="../index.html">
+                    <img src="../img/lm.svg"/>
+                </a>
+            </div>
+            <div id="men">
+                <nav id="menuToggle">
+                    <input id="check" type="checkbox" />
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                        <ul id=menu>
+                        <li><a href="../index.html"><h4>Home</h4></a></li>
+                        <li><a href="about.html"><h4>About</h4></a></li>
+                        <li><a href="contact.html"><h4>Contact</h4></a></li>
+                        <li><a href="game.html"><h4>Game</h4></a></li>
+                    </ul>
+                </nav> 
+            </div>
+        </header>
+        
+        <main>
+            <section>
+                
+                <article id="script">
+                    <h2>Schere Stein Papier</h2>
+                    <h3 id="text">Wähle deine Waffe!</h3>
+                    <div id="start" style="width: 100px; height: 100px"><img src="../img/start.png"/></div>
+
+                    <div class="choice">
+                        <div id="Schere" style="width: 50px; height: 50px"><img src="../img/schere.png"/></div>
+                        <div id="Stein" style="width: 50px; height: 50px"><img src="../img/stein.png"/></div>
+                        <div id="Papier" style="width: 50px; height: 50px"><img src="../img/papier.png"/></div>
+                    </div>
+
+                    <div class="result">
+                        <div id="win" style="width: 50px; height: 50px"><img src="../img/win.png"/></div>
+                        <div id="loss" style="width: 50px; height: 50px"><img src="../img/loss.png"/></div>
+                        <div id="tie" style="width: 50px; height: 50px"><img src="../img/tie.png"/></div>
+
+						<div id="retry" style="width: 50px; height: 50px"><img src="../img/retry.png"/> </div>
+						<div id="reset" style="width: 50px; height: 50px"><img src="../img/Reset-button.jpg"/> </div>
+                    </div>
+
+                    <div class="score">
+                        <div>
+                            <h2 id="uS"></h2><h2 id="cS"></h2>
+                        </div>
+                        <div>
+                            <h4 style="color: white"></h4><h4>User - Computer</h4>
+                        </div>
+                    </div>
+                </article>
+                
+            </section>
+            
+        </main>
+        
+        <footer>
+            &copy; 2017 L&M
+        </footer>
+    </body>
+</html>

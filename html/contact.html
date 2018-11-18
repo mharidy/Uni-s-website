@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <title>L&M - Activity and Sports Blog</title>
+        <meta charset="utf-8" >
+        <meta name="viewport" content="width=device-width"/>
+        <link rel="stylesheet" href="../css/normalize.css"/>
+        <link rel="stylesheet" href="../css/main.css" media="screen"/>
+        <script src="../js/formValidation.js"></script>
+    </head>
+    
+    <body>
+        <header>
+            <div><h1>Activities and Sports</h1></div>
+            <div id="logo">
+                <a href="../index.html">
+                    <img src="../img/lm.svg"/>
+                </a>
+            </div>
+            <div id="men">
+                <nav id="menuToggle">
+                    <input id="check" type="checkbox" />
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                    <ul id=menu>
+                        <li><a href="../index.html"><h4>Home</h4></a></li>
+                        <li><a href="about.html"><h4>About</h4></a></li>
+                        <li><a href="contact.html"><h4>Contact</h4></a></li>
+                        <li><a href="game.html"><h4>Game</h4></a></li>
+                    </ul>
+                </nav> 
+            </div>
+        </header>
+        
+        <main>
+            <section>
+                <article>
+                    <h2>Kontakt</h2>
+                    <div class="contact">
+                        <form action="#">
+                            
+                            <fieldset>
+                                <p class="error">Bitte geben sie Ihren Vornamen ein.</p>
+                                <input type="text" id="firstname" placeholder="Vorname *">
+                                
+                                <p class="error">Bitte geben sie Ihren Namen ein.</p>
+                                <input type="text" id="surname" placeholder="Nachname *">
+                                
+                                
+                                <div id="gender">
+                                <div>
+                                <label for="male">männlich: </label><input id="male" type="radio" name="gen">
+                                </div>
+                                
+                                <div>
+                                <label for="female">weiblich: </label><input id="female" type="radio" name="gen">
+                                </div>
+                                </div>
+                                
+                                <p class="error">Bitte geben Sie Ihr Geburtsdatum an.</p>
+                                <div id="date">
+                                <label for="birthday">Geburtstag: </label><input type="date" id="birthday">
+                                </div>
+                                
+                                <p class="error">Bitte geben Sie eine gültige E-Mail ein.</p>
+                                <input type="email" id="email" placeholder="E-Mail">
+                                
+                                <p class="error">Bitte geben sie Ihre Nachricht ein.</p>
+                                <textarea rows="5" placeholder="Deine Nachricht..."></textarea>
+                                
+                                
+                                <div id="buttons">
+                                    <button type="submit">Absenden</button>
+                                    <button type="reset">Zurücksetzen</button>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                </article>
+                <div id="social">
+                    <a href="https://www.facebook.com/NasserIII"><img src="../img/facebook.svg" alt="facebook"></a>
+                    
+                    <a href="https://www.instagram.com"><img src="../img/instagram.svg" alt="instagram"></a>
+                    
+                    <a href="https://www.youtube.com"><img src="../img/youtube.svg" alt="youtube"></a>
+                    
+                    <a href="https://www.twitter.com"><img src="../img/twitter.svg" alt="twitter"></a>
+                    
+                    <a href="https://www.snapchat.com"><img src="../img/snapchat.svg" alt="snapchat"></a>
+                    
+                </div>
+            </section>
+        </main>
+        <footer>
+            &copy; 2017 L&M
+        </footer>
+    </body>
+</html>
